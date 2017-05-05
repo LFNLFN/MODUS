@@ -1,0 +1,70 @@
+#header1 {
+        width:1500px; height:80px;
+        position: relative;
+        background-color: #76c7c0;
+        color: #fff;
+      }
+        #head_webName {
+          width: 270px; height: 80px;
+          position: absolute; left: 163px; top: 0;
+        }
+          #M_font {
+            font-size: 21px;
+            line-height: 80px;
+          }
+          #v_font {
+            font-size: 13px;
+          }
+        #head_home {
+          width: 70px; height: 30px;
+          border-radius: 2px;
+          font-size: 10px;
+          line-height: 30px;
+          position:absolute; left: 563px; top:25px;
+          text-align: center;
+          background-color: #62a29e;
+          box-shadow: 0 3px rgba(82,139,134,1);
+        }
+        #head_menu {
+          width: 700px; height: 80px;
+          position: absolute; left: 633px; top: 0;
+        }
+          #abo {
+            height: 80px;width: 46px;
+            font-size: 9px;
+            line-height: 80px;
+            /*text-align: center;*/
+            position: absolute; left: 27px;
+          }
+          #ser {
+            height: 80px;width: 56px;
+            font-size: 9px;
+            line-height: 80px;
+            /*text-align: center;*/
+            position: absolute; left: 126px;
+          }
+          #port{
+            width: 120px; height: 30px;
+            font-size: 9px;
+            line-height: 30px;
+            text-align: center;
+            position: absolute; top: 25px; left: 205px;
+            border-radius: 3px;
+          }
+          #port:hover {
+            width: 120px; height: 30px;
+            font-size: 9px;
+            line-height: 30px;
+            text-align: center;
+            box-shadow: 0 3px rgba(226,83,75,1);
+            position: absolute; top: 25PX; left: 205px;
+            background:url(head_images/DropDownArrow.gif) #e8645a no-repeat top 13px left 15px;
+            border-radius: 3px;
+          }
+          #blo {
+            height: 80px;width: 34px;
+            font-size: 9px;
+            line-height: 80px;
+            /*text-align: center;*/
+            position: absolute; left: 126px;
+          }
