@@ -1,6 +1,18 @@
-@font-face {
-  font-family: 
+@font-face {font-family: "Opensans-blod";
+  src: url('../fonts/opensans-extrabold-webfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
 }
+
+@font-face {font-family: "Opensans-regular";
+  src: url('../fonts/opensans-regular-webfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/OpenSans-Regular.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+@font-face {font-family: "Opensans-italic";
+  src: url('../fonts/opensans-semibolditalic-webfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/OpenSans-SemiboldItalic.ttf.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
 .webDefault_bor_rad {
   border-radius: 4px;
 }
@@ -127,6 +139,24 @@
   /*color: #fff;*/
 }
 /*service title---------------------------------------*/
+.serv_blk {
+  padding: 23px;
+  box-sizing: border-box; 
+}
+
+.serv_title {
+  font-size: 30px;
+  color: #7f8c8c;
+  font-family: "Opensans-regular";
+  font-weight: bold;
+}
+
+.serv_desc {
+  font-family: "Opensans-regular";
+  font-size: 13px;
+  color: #7f8c8c;
+}
+
 .serv_blk_tit_posi {
   position: absolute;
   left: 163px;
@@ -143,6 +173,14 @@
   /*color: #fff;*/
 }
 /*service view more-----------------------*/
+.serv_viewmore {
+  text-align: center;
+  line-height:50px;
+  color:  #fff;
+  font-family: "Opensans-regular";
+  font-weight: bold;
+}
+
 .serv_viewmore_posi {
   position: absolute;
   right: 35px;
